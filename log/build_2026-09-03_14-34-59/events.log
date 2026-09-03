@@ -1,0 +1,279 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (air_mouse_slam) JobQueued: {'identifier': 'air_mouse_slam', 'dependencies': OrderedDict()}
+[0.000322] (air_mouse_slam) JobStarted: {'identifier': 'air_mouse_slam'}
+[0.033571] (air_mouse_slam) JobProgress: {'identifier': 'air_mouse_slam', 'progress': 'cmake'}
+[0.039161] (air_mouse_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/soham/air_mouse_ws/src/air_mouse_slam', '-DCMAKE_INSTALL_PREFIX=/home/soham/air_mouse_ws/install/air_mouse_slam'], 'cwd': '/home/soham/air_mouse_ws/build/air_mouse_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soham'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soham'), ('OLDPWD', '/home/soham/air_mouse_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soham'), ('NAME', 'KSoham'), ('WSL_INTEROP', '/run/WSL/753_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/soham/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/soham/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Java/jdk-23/bin:/mnt/c/TDM-GCC-32/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/nodejs:/mnt/d/MATLAB/bin:/mnt/d/soham/Documents/AOMEI Partition Assistant:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/soham/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/soham/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/soham/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/soham/.dotnet/tools:/mnt/c/Users/soham/AppData/Roaming/npm:/mnt/d/VISUAL STUDIO CODE/Microsoft VS Code/bin:/mnt/d/src/flutter/bin:/mnt/d/Flutter/flutter/bin:/mnt/c/Users/soham/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soham/air_mouse_ws/build/air_mouse_slam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099208] (-) TimerEvent: {}
+[0.199864] (-) TimerEvent: {}
+[0.300667] (-) TimerEvent: {}
+[0.401249] (-) TimerEvent: {}
+[0.401806] (air_mouse_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501551] (-) TimerEvent: {}
+[0.602405] (-) TimerEvent: {}
+[0.671687] (air_mouse_slam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.702698] (-) TimerEvent: {}
+[0.803391] (-) TimerEvent: {}
+[0.807491] (air_mouse_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.903588] (-) TimerEvent: {}
+[1.004546] (-) TimerEvent: {}
+[1.105500] (-) TimerEvent: {}
+[1.206276] (-) TimerEvent: {}
+[1.307425] (-) TimerEvent: {}
+[1.408074] (-) TimerEvent: {}
+[1.508986] (-) TimerEvent: {}
+[1.609648] (-) TimerEvent: {}
+[1.698601] (air_mouse_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.709985] (-) TimerEvent: {}
+[1.724671] (air_mouse_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.766592] (air_mouse_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.810164] (-) TimerEvent: {}
+[1.819922] (air_mouse_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.884022] (air_mouse_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.910556] (-) TimerEvent: {}
+[2.011104] (-) TimerEvent: {}
+[2.050063] (air_mouse_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.064489] (air_mouse_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.111417] (-) TimerEvent: {}
+[2.211908] (-) TimerEvent: {}
+[2.312699] (-) TimerEvent: {}
+[2.413411] (-) TimerEvent: {}
+[2.514121] (-) TimerEvent: {}
+[2.614799] (-) TimerEvent: {}
+[2.715841] (-) TimerEvent: {}
+[2.816399] (-) TimerEvent: {}
+[2.916883] (-) TimerEvent: {}
+[3.017439] (-) TimerEvent: {}
+[3.118083] (-) TimerEvent: {}
+[3.218731] (-) TimerEvent: {}
+[3.319335] (-) TimerEvent: {}
+[3.419921] (-) TimerEvent: {}
+[3.520499] (-) TimerEvent: {}
+[3.621008] (-) TimerEvent: {}
+[3.721491] (-) TimerEvent: {}
+[3.821964] (-) TimerEvent: {}
+[3.922606] (-) TimerEvent: {}
+[4.023214] (-) TimerEvent: {}
+[4.123851] (-) TimerEvent: {}
+[4.224505] (-) TimerEvent: {}
+[4.325816] (-) TimerEvent: {}
+[4.427272] (-) TimerEvent: {}
+[4.528124] (-) TimerEvent: {}
+[4.628910] (-) TimerEvent: {}
+[4.729861] (-) TimerEvent: {}
+[4.831285] (-) TimerEvent: {}
+[4.932138] (-) TimerEvent: {}
+[5.032882] (-) TimerEvent: {}
+[5.133585] (-) TimerEvent: {}
+[5.234934] (-) TimerEvent: {}
+[5.335696] (-) TimerEvent: {}
+[5.436468] (-) TimerEvent: {}
+[5.537235] (-) TimerEvent: {}
+[5.637857] (-) TimerEvent: {}
+[5.738668] (-) TimerEvent: {}
+[5.839336] (-) TimerEvent: {}
+[5.940361] (-) TimerEvent: {}
+[6.041019] (-) TimerEvent: {}
+[6.141603] (-) TimerEvent: {}
+[6.242507] (-) TimerEvent: {}
+[6.343370] (-) TimerEvent: {}
+[6.444156] (-) TimerEvent: {}
+[6.545068] (-) TimerEvent: {}
+[6.645818] (-) TimerEvent: {}
+[6.746567] (-) TimerEvent: {}
+[6.847424] (-) TimerEvent: {}
+[6.948351] (-) TimerEvent: {}
+[7.049425] (-) TimerEvent: {}
+[7.150314] (-) TimerEvent: {}
+[7.251083] (-) TimerEvent: {}
+[7.351646] (-) TimerEvent: {}
+[7.452844] (-) TimerEvent: {}
+[7.553442] (-) TimerEvent: {}
+[7.654103] (-) TimerEvent: {}
+[7.754613] (-) TimerEvent: {}
+[7.855448] (-) TimerEvent: {}
+[7.956341] (-) TimerEvent: {}
+[8.056888] (-) TimerEvent: {}
+[8.157527] (-) TimerEvent: {}
+[8.258055] (-) TimerEvent: {}
+[8.358637] (-) TimerEvent: {}
+[8.459301] (-) TimerEvent: {}
+[8.560496] (-) TimerEvent: {}
+[8.661163] (-) TimerEvent: {}
+[8.761829] (-) TimerEvent: {}
+[8.862497] (-) TimerEvent: {}
+[8.963098] (-) TimerEvent: {}
+[9.063609] (-) TimerEvent: {}
+[9.164032] (-) TimerEvent: {}
+[9.265274] (-) TimerEvent: {}
+[9.365925] (-) TimerEvent: {}
+[9.466574] (-) TimerEvent: {}
+[9.567135] (-) TimerEvent: {}
+[9.667652] (-) TimerEvent: {}
+[9.768228] (-) TimerEvent: {}
+[9.868920] (-) TimerEvent: {}
+[9.969474] (-) TimerEvent: {}
+[10.070007] (-) TimerEvent: {}
+[10.170560] (-) TimerEvent: {}
+[10.271122] (-) TimerEvent: {}
+[10.371611] (-) TimerEvent: {}
+[10.472309] (-) TimerEvent: {}
+[10.572807] (-) TimerEvent: {}
+[10.673325] (-) TimerEvent: {}
+[10.773964] (-) TimerEvent: {}
+[10.874554] (-) TimerEvent: {}
+[10.974994] (-) TimerEvent: {}
+[11.075638] (-) TimerEvent: {}
+[11.176225] (-) TimerEvent: {}
+[11.276774] (-) TimerEvent: {}
+[11.377495] (-) TimerEvent: {}
+[11.478213] (-) TimerEvent: {}
+[11.578850] (-) TimerEvent: {}
+[11.679567] (-) TimerEvent: {}
+[11.780192] (-) TimerEvent: {}
+[11.880674] (-) TimerEvent: {}
+[11.981316] (-) TimerEvent: {}
+[12.081809] (-) TimerEvent: {}
+[12.182368] (-) TimerEvent: {}
+[12.282833] (-) TimerEvent: {}
+[12.383384] (-) TimerEvent: {}
+[12.484202] (-) TimerEvent: {}
+[12.584737] (-) TimerEvent: {}
+[12.685341] (-) TimerEvent: {}
+[12.785973] (-) TimerEvent: {}
+[12.886526] (-) TimerEvent: {}
+[12.986994] (-) TimerEvent: {}
+[13.087466] (-) TimerEvent: {}
+[13.188221] (-) TimerEvent: {}
+[13.289079] (-) TimerEvent: {}
+[13.389651] (-) TimerEvent: {}
+[13.490503] (-) TimerEvent: {}
+[13.591197] (-) TimerEvent: {}
+[13.691982] (-) TimerEvent: {}
+[13.792549] (-) TimerEvent: {}
+[13.893241] (-) TimerEvent: {}
+[13.993715] (-) TimerEvent: {}
+[14.094378] (-) TimerEvent: {}
+[14.195118] (-) TimerEvent: {}
+[14.295837] (-) TimerEvent: {}
+[14.396732] (-) TimerEvent: {}
+[14.497263] (-) TimerEvent: {}
+[14.597901] (-) TimerEvent: {}
+[14.698471] (-) TimerEvent: {}
+[14.799117] (-) TimerEvent: {}
+[14.899735] (-) TimerEvent: {}
+[15.000310] (-) TimerEvent: {}
+[15.100795] (-) TimerEvent: {}
+[15.201403] (-) TimerEvent: {}
+[15.302015] (-) TimerEvent: {}
+[15.402584] (-) TimerEvent: {}
+[15.503219] (-) TimerEvent: {}
+[15.603704] (-) TimerEvent: {}
+[15.704173] (-) TimerEvent: {}
+[15.804689] (-) TimerEvent: {}
+[15.905379] (-) TimerEvent: {}
+[16.005824] (-) TimerEvent: {}
+[16.106286] (-) TimerEvent: {}
+[16.206913] (-) TimerEvent: {}
+[16.307453] (-) TimerEvent: {}
+[16.408139] (-) TimerEvent: {}
+[16.508962] (-) TimerEvent: {}
+[16.609637] (-) TimerEvent: {}
+[16.710275] (-) TimerEvent: {}
+[16.810814] (-) TimerEvent: {}
+[16.911351] (-) TimerEvent: {}
+[17.012042] (-) TimerEvent: {}
+[17.112542] (-) TimerEvent: {}
+[17.213166] (-) TimerEvent: {}
+[17.313686] (-) TimerEvent: {}
+[17.414196] (-) TimerEvent: {}
+[17.514788] (-) TimerEvent: {}
+[17.615327] (-) TimerEvent: {}
+[17.715916] (-) TimerEvent: {}
+[17.816487] (-) TimerEvent: {}
+[17.917080] (-) TimerEvent: {}
+[18.017852] (-) TimerEvent: {}
+[18.118576] (-) TimerEvent: {}
+[18.219253] (-) TimerEvent: {}
+[18.319712] (-) TimerEvent: {}
+[18.420243] (-) TimerEvent: {}
+[18.520779] (-) TimerEvent: {}
+[18.621280] (-) TimerEvent: {}
+[18.722109] (-) TimerEvent: {}
+[18.822757] (-) TimerEvent: {}
+[18.923422] (-) TimerEvent: {}
+[19.024221] (-) TimerEvent: {}
+[19.124872] (-) TimerEvent: {}
+[19.225623] (-) TimerEvent: {}
+[19.326253] (-) TimerEvent: {}
+[19.427138] (-) TimerEvent: {}
+[19.527978] (-) TimerEvent: {}
+[19.628607] (-) TimerEvent: {}
+[19.729090] (-) TimerEvent: {}
+[19.829534] (-) TimerEvent: {}
+[19.930038] (-) TimerEvent: {}
+[20.030711] (-) TimerEvent: {}
+[20.131429] (-) TimerEvent: {}
+[20.232026] (-) TimerEvent: {}
+[20.332634] (-) TimerEvent: {}
+[20.433166] (-) TimerEvent: {}
+[20.533847] (-) TimerEvent: {}
+[20.634343] (-) TimerEvent: {}
+[20.734830] (-) TimerEvent: {}
+[20.835405] (-) TimerEvent: {}
+[20.936087] (-) TimerEvent: {}
+[21.036586] (-) TimerEvent: {}
+[21.137127] (-) TimerEvent: {}
+[21.237683] (-) TimerEvent: {}
+[21.338389] (-) TimerEvent: {}
+[21.439219] (-) TimerEvent: {}
+[21.539856] (-) TimerEvent: {}
+[21.640481] (-) TimerEvent: {}
+[21.741132] (-) TimerEvent: {}
+[21.841899] (-) TimerEvent: {}
+[21.921343] (air_mouse_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[21.942181] (-) TimerEvent: {}
+[22.042764] (-) TimerEvent: {}
+[22.074603] (air_mouse_slam) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[22.142941] (-) TimerEvent: {}
+[22.158477] (air_mouse_slam) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[22.233027] (air_mouse_slam) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[22.243159] (-) TimerEvent: {}
+[22.283857] (air_mouse_slam) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[22.343367] (-) TimerEvent: {}
+[22.374022] (air_mouse_slam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[22.443634] (-) TimerEvent: {}
+[22.524874] (air_mouse_slam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[22.526467] (air_mouse_slam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.527743] (air_mouse_slam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[22.534594] (air_mouse_slam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[22.538733] (air_mouse_slam) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.543724] (-) TimerEvent: {}
+[22.555263] (air_mouse_slam) StdoutLine: {'line': b'-- Generating done\n'}
+[22.558095] (air_mouse_slam) StdoutLine: {'line': b'-- Build files have been written to: /home/soham/air_mouse_ws/build/air_mouse_slam\n'}
+[22.575619] (air_mouse_slam) CommandEnded: {'returncode': 0}
+[22.577242] (air_mouse_slam) JobProgress: {'identifier': 'air_mouse_slam', 'progress': 'build'}
+[22.578939] (air_mouse_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soham/air_mouse_ws/build/air_mouse_slam', '--', '-j12', '-l12'], 'cwd': '/home/soham/air_mouse_ws/build/air_mouse_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soham'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soham'), ('OLDPWD', '/home/soham/air_mouse_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soham'), ('NAME', 'KSoham'), ('WSL_INTEROP', '/run/WSL/753_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/soham/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/soham/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Java/jdk-23/bin:/mnt/c/TDM-GCC-32/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/nodejs:/mnt/d/MATLAB/bin:/mnt/d/soham/Documents/AOMEI Partition Assistant:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/soham/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/soham/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/soham/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/soham/.dotnet/tools:/mnt/c/Users/soham/AppData/Roaming/npm:/mnt/d/VISUAL STUDIO CODE/Microsoft VS Code/bin:/mnt/d/src/flutter/bin:/mnt/d/Flutter/flutter/bin:/mnt/c/Users/soham/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soham/air_mouse_ws/build/air_mouse_slam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.635507] (air_mouse_slam) CommandEnded: {'returncode': 0}
+[22.639128] (air_mouse_slam) JobProgress: {'identifier': 'air_mouse_slam', 'progress': 'install'}
+[22.644146] (-) TimerEvent: {}
+[22.648832] (air_mouse_slam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/soham/air_mouse_ws/build/air_mouse_slam'], 'cwd': '/home/soham/air_mouse_ws/build/air_mouse_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soham'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/soham'), ('OLDPWD', '/home/soham/air_mouse_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soham'), ('NAME', 'KSoham'), ('WSL_INTEROP', '/run/WSL/753_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/soham/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/soham/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Java/jdk-23/bin:/mnt/c/TDM-GCC-32/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/nodejs:/mnt/d/MATLAB/bin:/mnt/d/soham/Documents/AOMEI Partition Assistant:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/soham/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/soham/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/soham/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/soham/.dotnet/tools:/mnt/c/Users/soham/AppData/Roaming/npm:/mnt/d/VISUAL STUDIO CODE/Microsoft VS Code/bin:/mnt/d/src/flutter/bin:/mnt/d/Flutter/flutter/bin:/mnt/c/Users/soham/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soham/air_mouse_ws/build/air_mouse_slam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.658077] (air_mouse_slam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.658555] (air_mouse_slam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.659018] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/ament_index/resource_index/package_run_dependencies/air_mouse_slam\n'}
+[22.659359] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/ament_index/resource_index/parent_prefix_path/air_mouse_slam\n'}
+[22.659690] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/ament_prefix_path.sh\n'}
+[22.659999] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/ament_prefix_path.dsv\n'}
+[22.660312] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/path.sh\n'}
+[22.660758] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/path.dsv\n'}
+[22.660884] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.bash\n'}
+[22.661426] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.sh\n'}
+[22.661662] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.zsh\n'}
+[22.661777] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.dsv\n'}
+[22.661868] (air_mouse_slam) StdoutLine: {'line': b'-- Symlinking: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/package.dsv\n'}
+[22.675257] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/ament_index/resource_index/packages/air_mouse_slam\n'}
+[22.675715] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/cmake/air_mouse_slamConfig.cmake\n'}
+[22.676184] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/cmake/air_mouse_slamConfig-version.cmake\n'}
+[22.676624] (air_mouse_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/package.xml\n'}
+[22.681039] (air_mouse_slam) CommandEnded: {'returncode': 0}
+[22.727358] (air_mouse_slam) JobEnded: {'identifier': 'air_mouse_slam', 'rc': 0}
+[22.728484] (-) EventReactorShutdown: {}
