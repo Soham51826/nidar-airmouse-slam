@@ -1,0 +1,4 @@
+source;share/air_mouse_slam/local_setup.bash
+source;share/air_mouse_slam/local_setup.dsv
+source;share/air_mouse_slam/local_setup.sh
+source;share/air_mouse_slam/local_setup.zsh

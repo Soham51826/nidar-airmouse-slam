@@ -1,0 +1,21 @@
+[0.071s] Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soham/air_mouse_ws/build/air_mouse_slam -- -j12 -l12
+[0.476s] Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soham/air_mouse_ws/build/air_mouse_slam -- -j12 -l12
+[0.505s] Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soham/air_mouse_ws/build/air_mouse_slam
+[0.524s] -- Install configuration: ""
+[0.527s] -- Execute custom install script
+[0.528s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/ament_index/resource_index/package_run_dependencies/air_mouse_slam
+[0.528s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/ament_index/resource_index/parent_prefix_path/air_mouse_slam
+[0.528s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/ament_prefix_path.dsv
+[0.530s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/path.sh
+[0.530s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/environment/path.dsv
+[0.531s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.bash
+[0.531s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.sh
+[0.531s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.zsh
+[0.531s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/local_setup.dsv
+[0.531s] -- Symlinking: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/package.dsv
+[0.554s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/ament_index/resource_index/packages/air_mouse_slam
+[0.554s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/cmake/air_mouse_slamConfig.cmake
+[0.555s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/cmake/air_mouse_slamConfig-version.cmake
+[0.555s] -- Up-to-date symlink: /home/soham/air_mouse_ws/install/air_mouse_slam/share/air_mouse_slam/package.xml
+[0.558s] Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soham/air_mouse_ws/build/air_mouse_slam

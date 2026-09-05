@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soham/air_mouse_ws/src/air_mouse_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soham/air_mouse_ws/install/air_mouse_slam
+[0.046s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.238s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.305s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.736s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.746s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.776s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.841s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.952s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.108s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[14.187s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[14.246s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[14.287s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[14.354s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.456s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.458s] -- Added test 'lint_cmake' to check CMake code style
+[14.459s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.465s] -- Added test 'xmllint' to check XML markup files
+[14.470s] -- Configuring done
+[14.486s] -- Generating done
+[14.488s] -- Build files have been written to: /home/soham/air_mouse_ws/build/air_mouse_slam
+[14.499s] Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soham/air_mouse_ws/src/air_mouse_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soham/air_mouse_ws/install/air_mouse_slam
+[14.501s] Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soham/air_mouse_ws/build/air_mouse_slam -- -j12 -l12
+[14.539s] Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soham/air_mouse_ws/build/air_mouse_slam -- -j12 -l12
+[14.547s] Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soham/air_mouse_ws/build/air_mouse_slam
+[14.554s] -- Install configuration: ""
+[14.555s] -- Execute custom install script
+[14.555s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[14.555s]   ament_cmake_symlink_install_directory() can't find
+[14.555s]   '/home/soham/air_mouse_ws/src/air_mouse_slam/launch'
+[14.555s] Call Stack (most recent call first):
+[14.555s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[14.555s]   cmake_install.cmake:46 (include)
+[14.555s] 
+[14.555s] [0m
+[14.557s] Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soham/air_mouse_ws/build/air_mouse_slam

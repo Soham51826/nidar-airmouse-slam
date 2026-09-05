@@ -1,0 +1,6 @@
+Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soham/air_mouse_ws/src/air_mouse_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soham/air_mouse_ws/install/air_mouse_slam
+Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soham/air_mouse_ws/src/air_mouse_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soham/air_mouse_ws/install/air_mouse_slam
+Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soham/air_mouse_ws/build/air_mouse_slam -- -j12 -l12
+Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soham/air_mouse_ws/build/air_mouse_slam -- -j12 -l12
+Invoking command in '/home/soham/air_mouse_ws/build/air_mouse_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soham/air_mouse_ws/build/air_mouse_slam
+Invoked command in '/home/soham/air_mouse_ws/build/air_mouse_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soham/air_mouse_ws/build/air_mouse_slam
